@@ -10,18 +10,13 @@
   padding: 30px;
   @media only screen and (max-width :$bp-small){
     max-width: 40%;
-
     }
 
   @media only screen and (max-width :$bp-phone2){
-
     max-width: 40%;
-
     }
   @media only screen and (max-width :$bp-phone){
-
     max-width: 40%;
-
   }
 }
 
@@ -29,33 +24,24 @@
 
 
 .advertPicture{
-
   max-width: 100%;
-  height: 100%;
-  
+  height: 100%; 
   background-size: cover;
-
   @media only screen and (max-width :$bp-small){
     max-width: 100%;
-
   }
   @media only screen and (max-width :$bp-smallest){
     width: 100%;
     height: 100%;
 
-
   }
   @media only screen and (max-width :$bp-phone2){
-
     width: 100%;
     height: 100%;
-
   }
   @media only screen and (max-width :$bp-phone){
-
     width: 100%;
     height: 100%;
-
   }
 
 }
@@ -143,6 +129,7 @@
       font-size: 1rem;
       box-shadow :0 2rem 6rem rgba(0,0,0,.3);
       width: 100%;
+  
    }
        
 
@@ -154,27 +141,24 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     @media only screen and (max-width :$bp-large){
       font-size: 1.5rem;
-
     }
     @media only screen and (max-width :$bp-medium){
       font-size: 1.3rem;
-    
    }
    @media only screen and (max-width :$bp-smallest){
     font-size: 1.5rem;
-    box-shadow :0 2rem 6rem rgba(0,0,0,.3);
+
   }
    @media only screen and (max-width :$bp-phone2){
     font-size: 1rem;
-   width: 80%;
-    box-shadow :0 2rem 6rem rgba(0,0,0,.3);
-    margin: auto;
+    width: 80%;
 
+    margin: auto;
  }
    @media only screen and (max-width :$bp-phone){
     font-size: 1rem;
     width: 100%;
-    box-shadow :0 2rem 6rem rgba(0,0,0,.3);
+
  }
 
 
