@@ -1,0 +1,63 @@
+.footer{
+
+    height: 100%;
+
+    &__section1{
+        background-color:rgb(82, 82, 82);
+        height: 35rem;
+
+
+        display: flex;
+
+        @media only screen and (max-width :$bp-small){
+           display: flex;
+           flex-direction: column-reverse;
+           align-items: center;
+
+           height: 80rem;
+      
+          }
+          @media only screen and (max-width :$bp-phone){
+              height: 80rem;
+              }
+
+
+        &__About--side1{
+            flex: 0 0 60%;
+
+            display: flex;
+            padding: 50px;
+            flex-direction: column;
+        }
+        &__About--side2{
+            flex: 1;
+    
+            display: flex;
+            flex-direction: column;
+            padding: 50px;
+
+        }
+    }
+    &__section2{
+        background-color: gray;
+        height: 8rem;
+
+        padding-right: 5rem;
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 15px;
+
+
+    }
+    &__section3{
+        background-color: black;
+        height: 8rem;
+        padding: 3rem;
+        font-size: 0.8rem;
+        font-family: sans-serif;
+
+    
+    }
+}

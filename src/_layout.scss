@@ -1,0 +1,328 @@
+.container{
+    max-height: 100%;
+
+    @media only screen and (max-width :$bp-large){
+        max-height: 100%;
+    }
+    
+    @media only screen and (max-width :$bp-phone){
+        max-height: 100%;
+
+    }
+}
+.content{
+
+    max-height: 100%;
+    padding: 8rem;
+    @media only screen and (max-width :$bp-small){
+        padding: 7rem;
+        margin-top: 3rem;
+
+        }
+        @media only screen and (max-width :$bp-smallest){
+            padding:3.5rem;
+            margin-top: 4rem;
+
+            
+            }
+
+    @media only screen and (max-width :$bp-phone2){
+        padding:4rem;
+        margin-top: 3rem;
+  
+        }
+
+    @media only screen and (max-width :$bp-phone){
+
+        margin-top: 1rem;   
+
+    }
+
+
+    &__title{
+        color: red;
+        font-size: 3rem;
+        margin-top: -5rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+      
+        @media only screen and (max-width :$bp-phone2){
+           font-size: 2.5rem;
+     
+           }
+        @media only screen and (max-width :$bp-phone){
+            font-size: 2rem;
+            margin-top: -1rem;
+         
+       
+        }
+        
+    }
+
+    &__advert{
+   
+        box-shadow :0 2rem 6rem rgba(0,0,0,.3);
+
+       max-height: 100%;
+       margin-top: 2rem;
+       
+       display: flex;
+       justify-content: space-between;
+    
+    @media only screen and (max-width :$bp-small){
+    display: flex;
+    flex-direction: column;
+
+    width: 35rem;
+    }
+
+    @media only screen and (max-width :$bp-smallest){
+       height: 40rem;
+          }
+
+    @media only screen and (max-width :$bp-phone2){
+      width: 30rem;
+        }
+
+
+    @media only screen and (max-width :$bp-phone){
+     height: 30rem;
+     width: 24rem;
+     margin-top: 1rem;
+ 
+     
+      }
+
+       &--side1{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         width: 50%;
+         max-height: 100%;
+        
+         @media only screen and (max-width :$bp-small){
+            width: 45rem;
+            height: 25rem;        
+            display: flex;
+
+            }
+            @media only screen and (max-width :$bp-smallest){
+                max-width: 100%;
+               max-height: 50%;
+       
+              }
+              @media only screen and (max-width :$bp-phone2){
+    
+               height: 18rem;
+            
+              }
+
+       }
+       &--side2{
+       width: 50%;
+        padding: 5px;
+        background-color: rgb(136, 208, 232);
+             
+        @media only screen and (max-width :$bp-small){
+            width: 45rem;
+            height: 25rem;
+
+            background-color: rgb(136, 208, 232);
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+         
+            }
+            @media only screen and (max-width :$bp-smallest){
+
+                max-width: 100%;
+              }
+              @media only screen and (max-width :$bp-phone){
+          
+                max-width: 100%;
+              
+                max-height: 100%;
+          
+              }
+         
+       }
+   
+    }
+    &__getService{
+        position: relative;
+        color:#fff;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        height: 45%;
+        max-width: 92.3%;
+        background-color: rgb(26, 26, 103);
+        margin-top: 10rem;
+
+      
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @media only screen and (max-width :$bp-large){
+            max-width: 97%;
+   
+        }
+        
+        @media only screen and (max-width :$bp-medium){
+            max-height: 100%;
+            width: 40.8rem;
+            font-size: 0.9rem;
+   
+        }
+
+    }
+
+
+}
+
+.card{
+    margin-top: 3rem;
+    height: 45rem;
+    padding: -1rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    @media only screen and (max-width :$bp-small){
+       gap: 15rem;
+       height: 150rem;
+       margin-top: 10rem;
+
+
+       display: flex;
+       justify-content: flex-start;
+       align-items: center;
+
+       @media only screen and (max-width :$bp-phone){
+        max-width: 100%;
+        height: 100%;
+        gap: 10rem;
+
+           }
+       }
+
+    &__card1{
+
+    
+        height: 12rem;
+        padding: 2rem;
+    
+        display: flex;
+        justify-content: space-between;
+        gap: 3rem;
+
+ 
+        @media only screen and (max-width :$bp-small){
+            display: flex;
+            flex-direction: column;
+
+            height: 50rem;
+            gap: 1rem;
+    
+
+
+            &:not(:last-child){
+                margin-bottom: -10rem;
+            }        
+           
+           }
+           @media only screen and (max-width :$bp-phone2){
+            height: 50rem;
+      
+        }
+
+
+           @media only screen and (max-width :$bp-phone){
+            width: 30rem;
+            height: 40rem;         
+        }
+
+    
+
+    }
+}
+
+.buttonShell{
+
+    height: 20rem;
+    padding: 10px;
+    margin-top: 8rem;
+    @media only screen and (max-width :$bp-medium){
+        margin-top: 10rem;
+     }
+
+     @media only screen and (max-width :$bp-small){
+        margin-top: 5rem;
+               
+               }
+}
+.shareShell{
+    margin-top: -8rem;
+    display: flex;
+    gap: 2rem;
+
+    @media only screen and (max-width :$bp-phone){
+  
+        padding: 10px;
+        margin-top: -12rem;
+    
+   
+      }
+
+}
+
+.form{
+
+    &__group:not(:last-child){
+         margin-bottom: 2rem;
+    }
+    &__input{
+       font-size: 1.5rem;
+       padding: 1rem 2rem;
+       border-radius: 2px;
+       background-color: rgba(#fff, .5);
+       border: none;
+       border-bottom: 3px solid transparent;
+       width: 95%;
+
+       display: block;
+
+       transition: all .3s;
+
+           
+    &:focus{
+        outline: none;
+        box-shadow: 0 1rem 2rem rgba(black, .1);
+        border-bottom: 3px solid green;
+       }
+
+    &:focus:invalid{
+        border-bottom: 3px solid orange;
+    }
+    
+    &::-webkit-input-placeholder{
+        color: gray;
+
+       }
+
+}
+
+&__label{
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    margin-top: 2rem;
+    display: block;
+
+    transition: all .3s;
+
+}
+}
+
