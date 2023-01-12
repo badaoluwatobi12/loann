@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
 import swal from 'sweetalert';
 import {BarLoader} from "react-spinners"
-import './main.scss'
+import './home.scss'
 import advertPic from './img/advertPic.jpg'
 import USflag from './img/USflag.png'
 import USlogo from './img/USlogo.png'
@@ -92,24 +92,21 @@ swal("Please input all filed!", "Try again!", "warning");
    <div className='card__card1'>
 
      <a href='#popup' className='card1__box'>
-      <h3 className='boxHead'>Help Buying a Home</h3>
+      <h3 className='boxHead'>Agricultural Loans</h3>
       <div className='boxText'>
-       Learn about government programs that
-       make it easier to purchase a home
+      FSA provides guaranteed and direct loans. Under a guaranteed loan, a commercial lender makes and services the loan, and FSA guarantees it against loss up to a maximum of 95 percent of loan value.
       </div>
      </a>
      <a href='#popup' className='card1__box'>
-     <h3 className='boxHead'>Foreclosure</h3>
+     <h3 className='boxHead'>Financial assistance</h3>
       <div className='boxText'>
-      Learn some of the basics about avoiding and 
-      handling foreclosures
+      As the official benefits website of the U.S. government, Benefits.gov increases access to benefit information and program eligibility requirements to help citizens find government assistance. Financial responsibilities can be difficult to manage, but depending on your circumstances, you may be eligible for financial assistance to help with your needs.
       </div>
      </a>
      <a href='#popup' className='card1__box'>
-     <h3 className='boxHead'>Affordable Rental Housing</h3>
+     <h3 className='boxHead'>Veteran Disability</h3>
       <div className='boxText'>
-       Get help finding rental assistance
-       or public housing
+      The Department of Veterans Affairs (VA) provides a one-time payment to disabled Veterans of no more than $22,355.72 toward the purchase of an automobile or other transportation. Additionally, the VA will pay for adaptive equipment, or for repair, replacement, and reinstallation of automobile equipment required because of disability.
       </div>
      </a>
 
@@ -122,23 +119,21 @@ swal("Please input all filed!", "Try again!", "warning");
 <div className='card__card1'>
 
 <a href='#popup' className='card1__box'>
- <h3 className='boxHead'>Housing Help</h3>
+ <h3 className='boxHead'>Small Business Loan</h3>
  <div className='boxText'>
-  Find housing resources targeted to 
-  certain audience 
+ 7(a) loans are the most basic and most used type loan of the Small Business Administration's (SBA) business loan programs. Its name comes from section 7(a) of the Small Business Act, which authorizes the agency to provide business loans to American small businesses. 
  </div>
 </a>
 <a href='#popup' className='card1__box'>
 <h3 className='boxHead'>Mortgages</h3>
  <div className='boxText'>
- Learn some of the basics about Mortgages
+ This program can help individuals buy a single family home. While U.S. Housing and Urban Development (HUD) does not lend money directly to buyers to purchase a home, Federal Housing Administration (FHA) approved lenders make loans through a number of FHA-insurance programs.
  </div>
 </a>
 <a href='#popup' className='card1__box'>
-<h3 className='boxHead'>Repairing and Improving Home</h3>
+<h3 className='boxHead'>Unemployments Faqs</h3>
  <div className='boxText'>
-Look for help repairing or making improvements 
-to your home
+ Unemployment Insurance, offered by the U.S. Department of Labor (DOL), is a benefit designed to help those who have lost their job due to no fault of their own. In most cases, “no fault of their own” means that you have separated from your last job due to a lack of available work.
  </div>
 </a>
 
@@ -149,23 +144,21 @@ to your home
 <div className='card__card1'>
 
 <a href='#popup' className='card1__box'>
- <h3 className='boxHead'>U.S. Postal service Issues</h3>
+ <h3 className='boxHead'>Education Loan</h3>
  <div className='boxText'>
- Find Answers to the  most popular Post office questions
+ The Free Application for Federal Student Aid (FAFSA) is an application used by virtually all two and four-year colleges, universities, and career schools for awarding Federal, state, and college-funded student aid.
  </div>
 </a>
 <a href='#popup' className='card1__box'>
-<h3 className='boxHead'>Housing Related Complaints</h3>
+<h3 className='boxHead'>Home Veteran Loan</h3>
  <div className='boxText'>
-Find Out what To do if you have  one of these complaints 
-when buying or renting a house 
+ The Department of Veterans Affairs (VA) Home Loan program guarantees loans made to eligible Veterans, Servicemembers, Reservists, National Guard members and certain surviving spouses. 
  </div>
 </a>
 <a href='#popup' className='card1__box'>
-<h3 className='boxHead'>Affordable Rental Housing</h3>
+<h3 className='boxHead'>Tax for Divorce and disablity</h3>
  <div className='boxText'>
-  Get help finding rental assistance
-  or public housing
+ There are certain special Federal tax rules for divorced or separated individuals that can result in a lower tax liability than would otherwise apply.
  </div>
 </a>
 

@@ -1,12 +1,12 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Main from './main'
+import Home from './home'
 
 function App() {
   return (
    <React.Fragment>
        <Routes>
-          <Route path='/main' element={<Main/>} />
+          <Route path='/home' element={<Home/>} />
        </Routes>
    </React.Fragment>
 
