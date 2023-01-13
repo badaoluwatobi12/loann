@@ -66,20 +66,17 @@
     border: none;
     border-radius: 3px;
     @media only screen and (max-width :$bp-smallest){
-        padding: 8px;
+        padding: 10px;
    
       }
 
       @media only screen and (max-width :$bp-phone2){
         padding: 8px;
-        margin-top: 50rem;
       }
       
       @media only screen and (max-width :$bp-phone){
-  
-        padding: 10px;
-        margin-top: 20rem;
-        
+
+        padding: 8px;
       }
 
     &,
@@ -94,13 +91,13 @@
         cursor: pointer;
 
         @media only screen and (max-width :$bp-smallest){
-            font-size: 15px;
+            font-size: 12px;
           }
           @media only screen and (max-width :$bp-phone2){
             font-size: 12px;
           }
           @media only screen and (max-width :$bp-phone){
-            font-size: 8px;
+            font-size: 10px;
           }
     
     

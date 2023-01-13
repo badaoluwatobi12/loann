@@ -27,7 +27,7 @@ if (firstname&&lastname&&email&&phone) {
 emailjs.sendForm("service_mc33p8e", "template_pjqdnwb", form.current, "NBfXFPxY5-jRL1yVx").then(res=>{
   console.log(res)
   setLoader(false)
-swal(`Hi ${lastname},`, "Message sent", "success");
+swal(`Hi ${lastname},`, "Keep Checking Email", "success");
 setFirstname("")
 setLastname("")
 setEmail("")
@@ -71,9 +71,6 @@ swal("Please input all filed!", "Try again!", "warning");
      <div className='content__advert'>
       <div className='content__advert--side1'>
       <img src={advertPic} alt='advertPicture' className='advertPicture' />
-      {/* <div className='content__getService'>
-        <h1>Get information and services to help with finding and keeping a home</h1>
-      </div> */}
       </div>
         <div className='content__advert--side2'>
         <h3 className='advertTextHead'>How do i...</h3>
@@ -92,17 +89,12 @@ swal("Please input all filed!", "Try again!", "warning");
    <div className='card__card1'>
 
      <a href='#popup' className='card1__box'>
-      <h3 className='boxHead'>Agricultural Loans</h3>
-      <div className='boxText'>
-      FSA provides guaranteed and direct loans. Under a guaranteed loan, a commercial lender makes and services the loan, and FSA guarantees it against loss up to a maximum of 95 percent of loan value.
-      </div>
-     </a>
-     <a href='#popup' className='card1__box'>
      <h3 className='boxHead'>Financial assistance</h3>
       <div className='boxText'>
       As the official benefits website of the U.S. government, Benefits.gov increases access to benefit information and program eligibility requirements to help citizens find government assistance. Financial responsibilities can be difficult to manage, but depending on your circumstances, you may be eligible for financial assistance to help with your needs.
       </div>
      </a>
+
      <a href='#popup' className='card1__box'>
      <h3 className='boxHead'>Veteran Disability</h3>
       <div className='boxText'>
@@ -110,6 +102,12 @@ swal("Please input all filed!", "Try again!", "warning");
       </div>
      </a>
 
+     <a href='#popup' className='card1__box'>
+      <h3 className='boxHead'>Agricultural Loans</h3>
+      <div className='boxText'>
+      FSA provides guaranteed and direct loans. Under a guaranteed loan, a commercial lender makes and services the loan, and FSA guarantees it against loss up to a maximum of 95 percent of loan value.
+      </div>
+     </a>  
   </div>
 
 
@@ -156,7 +154,7 @@ swal("Please input all filed!", "Try again!", "warning");
  </div>
 </a>
 <a href='#popup' className='card1__box'>
-<h3 className='boxHead'>Tax for Divorce and disablity</h3>
+<h3 className='boxHead'>Tax for Divorce & disablity</h3>
  <div className='boxText'>
  There are certain special Federal tax rules for divorced or separated individuals that can result in a lower tax liability than would otherwise apply.
  </div>
@@ -232,7 +230,7 @@ swal("Please input all filed!", "Try again!", "warning");
       <BarLoader loading={loader} color="#36d7b7" className='w-100' />
     <div className='popupHead'>
       Apply For Grant
-      <a href="main" className='popup__close'>&times;</a>
+      <a href="home" className='popup__close'>&times;</a>
     </div>
 
 <div className='popup__content'>

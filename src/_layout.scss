@@ -15,28 +15,39 @@
     max-height: 100%;
     padding: 8rem;
 
+    @media only screen and (max-width :$bp-medium){
+        padding: 3rem;
+        margin-top: 2rem;
+        }
+
    
     @media only screen and (max-width :$bp-small){
         padding: 7rem;
-        margin-top: 3rem;
-        }
-        @media only screen and (max-width :$bp-smallest){
-            padding:3.5rem;
-            margin-top: 4rem;
+        margin-top: 1rem;
 
-            
+        }
+
+
+        @media only screen and (max-width :$bp-smallest){
+            padding:3rem;
+            margin-top: 1rem;
+        
+         
+
             }
 
     @media only screen and (max-width :$bp-phone2){
-        padding:4rem;
+        padding:2.5rem;
         margin-top: 1rem;
   
         }
 
     @media only screen and (max-width :$bp-phone){
         margin-top: 1rem;   
-    }
+        padding:2rem;
+       
 
+    }
 
     &__title{
         color: red;
@@ -45,13 +56,30 @@
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         
       
+        
+        @media only screen and (max-width :$bp-medium){
+            font-size: 4rem;
+            margin-top: -2rem;
+      
+            }
+
+        @media only screen and (max-width :$bp-small){
+            font-size: 4.5rem;
+            margin-top: -1rem;
+      
+            }
+        @media only screen and (max-width :$bp-smallest){
+            font-size: 3.5rem;
+            margin-top: -1rem;
+      
+            }
         @media only screen and (max-width :$bp-phone2){
-           font-size: 2.5rem;
+           font-size: 3rem;
            margin-top: -1rem;
      
            }
         @media only screen and (max-width :$bp-phone){
-            font-size: 2rem;
+            font-size: 2.5rem;
             margin-top: -1rem;
          
         }
@@ -67,30 +95,37 @@
        
        display: flex;
        justify-content: space-between;
+       
+    @media only screen and (max-width :$bp-medium){
+        width: 85rem;
+        }
     
     @media only screen and (max-width :$bp-small){
     display: flex;
     flex-direction: column;
 
+
     width: 35rem;
     }
 
     @media only screen and (max-width :$bp-smallest){
-       height: 40rem;
+       height: 45rem;
+       width: 45rem; 
           }
 
     @media only screen and (max-width :$bp-phone2){
-      width: 30rem;
-      
+      width: 32rem;
+      height: 37rem;
+
+  
         }
 
 
     @media only screen and (max-width :$bp-phone){
      height: 30rem;
-     width: 24rem;
+     width: 25rem;
      margin-top: 1rem;
  
-     
       }
 
        &--side1{
@@ -164,27 +199,36 @@
     display: flex;
     flex-direction: column;
     gap: 5rem;
-    @media only screen and (max-width :$bp-small){
-       gap: 15rem;
-       height: 150rem;
-       margin-top: 10rem;
 
+
+    
+    @media only screen and (max-width :$bp-small){
+       gap: 45rem;
+       height: 460rem;
+       margin-top: 10rem;
+    
 
        display: flex;
        justify-content: flex-start;
-       align-items: center;
+    
 
-       @media only screen and (max-width :$bp-phone2){
-        max-width: 100%;
-        height: 50%;
-        gap: 18rem;
+       @media only screen and (max-width :$bp-smallest){
+        height: 460rem;
+
 
            }
 
+       @media only screen and (max-width :$bp-phone2){
+        height: 350rem;
+        gap: 30rem;
+
+           }
+
+
+
        @media only screen and (max-width :$bp-phone){
         max-width: 100%;
-        height: 100%;
-        gap: 10rem;
+        height: 350rem;
 
            }
        }
@@ -203,25 +247,28 @@
             display: flex;
             flex-direction: column;
 
-            height: 50rem;
+            height: 120rem;
             gap: 1rem;
-    
-
 
             &:not(:last-child){
                 margin-bottom: -10rem;
-            }        
+            }     
+        
            
            }
-           @media only screen and (max-width :$bp-phone2){
-            height: 60rem;
+           @media only screen and (max-width :$bp-smallest){
+            height: 125rem;
+               }
 
+           
+           @media only screen and (max-width :$bp-phone2){
+            height: 100rem;
 
       
         }
            @media only screen and (max-width :$bp-phone){
-            width: 30rem;
-            height: 40rem;         
+     
+            height:100rem;   
         }
 
     
