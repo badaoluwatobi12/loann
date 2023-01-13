@@ -22,14 +22,14 @@
 
    
     @media only screen and (max-width :$bp-small){
-        padding: 7rem;
+        padding: 5rem;
         margin-top: 1rem;
 
         }
 
 
         @media only screen and (max-width :$bp-smallest){
-            padding:3rem;
+            padding:1.5rem;
             margin-top: 1rem;
         
          
@@ -104,26 +104,28 @@
     display: flex;
     flex-direction: column;
 
+         
 
-    width: 35rem;
+
+    width: 45rem;
+    height: 45rem;
     }
 
     @media only screen and (max-width :$bp-smallest){
        height: 45rem;
-       width: 45rem; 
+       width: 37rem; 
+
           }
 
     @media only screen and (max-width :$bp-phone2){
       width: 32rem;
       height: 37rem;
-
-  
         }
 
 
     @media only screen and (max-width :$bp-phone){
-     height: 30rem;
-     width: 25rem;
+     height: 40rem;
+     width: 27rem;
      margin-top: 1rem;
  
       }
@@ -136,9 +138,9 @@
          max-height: 100%;
         
          @media only screen and (max-width :$bp-small){
-            width: 45rem;
-            height: 25rem;        
-            display: flex;
+              height: 20rem; 
+
+             width: 100%;
 
             }
             @media only screen and (max-width :$bp-smallest){
@@ -159,26 +161,28 @@
         background-color: rgb(136, 208, 232);
              
         @media only screen and (max-width :$bp-small){
-            width: 45rem;
-            height: 25rem;
+            width: 100%;
+            height: 28rem;
+          
+      
+       
 
-            background-color: rgb(136, 208, 232);
             
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+
          
             }
             @media only screen and (max-width :$bp-smallest){
-
+           
                 max-width: 100%;
               }
               @media only screen and (max-width :$bp-phone){
           
-                max-width: 100%;
-              
-                max-height: 100%;
+                width: 100%;
+
           
               }
          
@@ -214,6 +218,7 @@
 
        @media only screen and (max-width :$bp-smallest){
         height: 460rem;
+        padding: -2rem;
 
 
            }
