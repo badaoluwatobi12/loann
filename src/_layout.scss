@@ -208,7 +208,7 @@
     
     @media only screen and (max-width :$bp-small){
        gap: 45rem;
-       height: 100%;
+       height: 365rem;
        margin-top: 10rem;
     
 
@@ -217,13 +217,11 @@
     
 
        @media only screen and (max-width :$bp-smallest){
-     height: 100%;
-
-
+        height: 375rem;
            }
 
        @media only screen and (max-width :$bp-phone2){
-        height: 100%;
+        height: 300rem;
         gap: 30rem;
 
            }
@@ -231,8 +229,7 @@
 
 
        @media only screen and (max-width :$bp-phone){
-        max-width: 100%;
-        height: 100%;
+        height: 275rem;
 
            }
        }
@@ -251,13 +248,13 @@
             display: flex;
             flex-direction: column;
         
-            height: 105rem;
+            height: 110rem;
     
         
            
            }
            @media only screen and (max-width :$bp-smallest){
-            height: 105rem;
+            height: 110rem;
                }
 
            
@@ -268,7 +265,7 @@
         }
            @media only screen and (max-width :$bp-phone){
      
-            height:90rem;   
+            height:87rem;   
         }
 
     
@@ -290,7 +287,7 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            height: 105rem;
+            height: 95rem;
 
        
 
@@ -299,20 +296,20 @@
            
            }
            @media only screen and (max-width :$bp-smallest){
-            height: 105rem;
+            height: 100rem;
                }
 
            
            @media only screen and (max-width :$bp-phone2){
-            height:95rem;
-            margin-top: -80px;
+            height:85rem;
+            margin-top: -65px;
 
       
         }
            @media only screen and (max-width :$bp-phone){
      
-            height:82rem; 
-            margin-top: -150px;  
+            height:80rem; 
+            margin-top: -100px;  
         }
 
     
@@ -336,8 +333,8 @@
             justify-content:space-around;
             // align-items: center;
 
-            height: 110rem;
-            margin-top: -310px;
+            height: 100rem;
+            margin-top: -350px;
    
   
         
@@ -345,19 +342,19 @@
            }
            @media only screen and (max-width :$bp-smallest){
             height: 105rem;
-            margin-top: -310px;
+            margin-top: -340px;
                }
 
            
            @media only screen and (max-width :$bp-phone2){
-            height: 90rem;
-            margin-top: -190px;
+            height: 85rem;
+            margin-top: -230px;
 
       
         }
            @media only screen and (max-width :$bp-phone){
-            height:82rem; 
-            margin-top: -250px;  
+            height:78rem; 
+            margin-top: -260px;  
         }
 
     
