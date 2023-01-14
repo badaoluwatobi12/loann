@@ -158,7 +158,9 @@
     padding: 5px;
     font-size: 1.2rem;
     font-weight: 500;
+    margin-top: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: solid lightblue 1px;
 
     transition: all .3s;
   
@@ -179,7 +181,7 @@
   }
    @media only screen and (max-width :$bp-smallest){
     font-size: 2rem;
-    width: 35rem;
+    width: 35.5rem;
   }
    @media only screen and (max-width :$bp-phone2){
     font-size: 1.5rem;

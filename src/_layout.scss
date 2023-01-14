@@ -208,7 +208,7 @@
     
     @media only screen and (max-width :$bp-small){
        gap: 45rem;
-       height: 460rem;
+       height: 100%;
        margin-top: 10rem;
     
 
@@ -217,14 +217,13 @@
     
 
        @media only screen and (max-width :$bp-smallest){
-        height: 460rem;
-        padding: -2rem;
+     height: 100%;
 
 
            }
 
        @media only screen and (max-width :$bp-phone2){
-        height: 350rem;
+        height: 100%;
         gap: 30rem;
 
            }
@@ -233,7 +232,7 @@
 
        @media only screen and (max-width :$bp-phone){
         max-width: 100%;
-        height: 350rem;
+        height: 100%;
 
            }
        }
@@ -251,29 +250,114 @@
         @media only screen and (max-width :$bp-small){
             display: flex;
             flex-direction: column;
-
-            height: 120rem;
-            gap: 1rem;
-
-            &:not(:last-child){
-                margin-bottom: -10rem;
-            }     
+        
+            height: 105rem;
+    
         
            
            }
            @media only screen and (max-width :$bp-smallest){
-            height: 125rem;
+            height: 105rem;
                }
 
            
            @media only screen and (max-width :$bp-phone2){
-            height: 100rem;
+            height: 90rem;
 
       
         }
            @media only screen and (max-width :$bp-phone){
      
-            height:100rem;   
+            height:90rem;   
+        }
+
+    
+
+    }
+
+    &__card2{
+      
+        height: 30rem;
+        padding: 2rem;
+    
+        display: flex;
+        justify-content: space-between;
+        gap: 3rem;
+
+
+ 
+        @media only screen and (max-width :$bp-small){
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 105rem;
+
+       
+
+            margin-top: -130px;
+        
+           
+           }
+           @media only screen and (max-width :$bp-smallest){
+            height: 105rem;
+               }
+
+           
+           @media only screen and (max-width :$bp-phone2){
+            height:95rem;
+            margin-top: -80px;
+
+      
+        }
+           @media only screen and (max-width :$bp-phone){
+     
+            height:82rem; 
+            margin-top: -150px;  
+        }
+
+    
+
+    }
+
+    &__card3{
+ 
+        height: 30rem;
+        padding: 2rem;
+    
+        display: flex;
+        justify-content: space-between;
+        gap: 3rem;
+
+
+ 
+        @media only screen and (max-width :$bp-small){
+            display: flex;
+            flex-direction: column;
+            justify-content:space-around;
+            // align-items: center;
+
+            height: 110rem;
+            margin-top: -310px;
+   
+  
+        
+           
+           }
+           @media only screen and (max-width :$bp-smallest){
+            height: 105rem;
+            margin-top: -310px;
+               }
+
+           
+           @media only screen and (max-width :$bp-phone2){
+            height: 90rem;
+            margin-top: -190px;
+
+      
+        }
+           @media only screen and (max-width :$bp-phone){
+            height:82rem; 
+            margin-top: -250px;  
         }
 
     

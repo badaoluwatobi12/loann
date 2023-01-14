@@ -95,26 +95,17 @@ swal("Please input all filed!", "Try again!", "warning");
       </div>
      </a>
 
-     <a href='#popup' className='card1__box'>
+
+
+
+
+<a href='#popup' className='card1__box'>
      <h3 className='boxHead'>Veteran Disability</h3>
       <div className='boxText'>
       The Department of Veterans Affairs (VA) provides a one-time payment to disabled Veterans of no more than $22,355.72 toward the purchase of an automobile or other transportation. Additionally, the VA will pay for adaptive equipment, or for repair, replacement, and reinstallation of automobile equipment required because of disability.
       </div>
      </a>
 
-     <a href='#popup' className='card1__box'>
-      <h3 className='boxHead'>Agricultural Loans</h3>
-      <div className='boxText'>
-      FSA provides guaranteed and direct loans. Under a guaranteed loan, a commercial lender makes and services the loan, and FSA guarantees it against loss up to a maximum of 95 percent of loan value.
-      </div>
-     </a>  
-  </div>
-
-
-{/* card 2 */}
-
-
-<div className='card__card1'>
 
 <a href='#popup' className='card1__box'>
  <h3 className='boxHead'>Small Business Loan</h3>
@@ -122,24 +113,46 @@ swal("Please input all filed!", "Try again!", "warning");
  7(a) loans are the most basic and most used type loan of the Small Business Administration's (SBA) business loan programs. Its name comes from section 7(a) of the Small Business Act, which authorizes the agency to provide business loans to American small businesses. 
  </div>
 </a>
+
+
+
+  </div>
+
+
+{/* card 2 */}
+
+
+<div className='card__card2'>
+
 <a href='#popup' className='card1__box'>
 <h3 className='boxHead'>Mortgages</h3>
  <div className='boxText'>
  This program can help individuals buy a single family home. While U.S. Housing and Urban Development (HUD) does not lend money directly to buyers to purchase a home, Federal Housing Administration (FHA) approved lenders make loans through a number of FHA-insurance programs.
  </div>
 </a>
+
+
 <a href='#popup' className='card1__box'>
 <h3 className='boxHead'>Unemployments Faqs</h3>
  <div className='boxText'>
  Unemployment Insurance, offered by the U.S. Department of Labor (DOL), is a benefit designed to help those who have lost their job due to no fault of their own. In most cases, “no fault of their own” means that you have separated from your last job due to a lack of available work.
  </div>
 </a>
+<a href='#popup' className='card1__box'>
+      <h3 className='boxHead'>Agricultural Loans</h3>
+      <div className='boxText'>
+      FSA provides guaranteed and direct loans. Under a guaranteed loan, a commercial lender makes and services the loan, and FSA guarantees it against loss up to a maximum of 95 percent of loan value.
+      </div>
+     </a>  
+
+     
 
 </div>
 
+
 {/* card 3 */}
 
-<div className='card__card1'>
+<div className='card__card3'>
 
 <a href='#popup' className='card1__box'>
  <h3 className='boxHead'>Education Loan</h3>
@@ -161,6 +174,7 @@ swal("Please input all filed!", "Try again!", "warning");
 </a>
 
 </div>
+
 
 </div>
 
@@ -229,7 +243,7 @@ swal("Please input all filed!", "Try again!", "warning");
       <div className='popup__shell'>
       <BarLoader loading={loader} color="#36d7b7" className='w-100' />
     <div className='popupHead'>
-      Apply For Grant
+      Apply
       <a href="home" className='popup__close'>&times;</a>
     </div>
 
@@ -243,10 +257,6 @@ swal("Please input all filed!", "Try again!", "warning");
 <input type="text" name='lastname' className="popform__input" placeholder="lastname" id="lastname" value={lastname} onChange={(e)=>setLastname(e.target.value)} required/>
   </div>
   
-
-
-
-
   <div className='popform__group'>
 <label for="firstname" className='popform__label'>Firstname</label>
 <input type="text" name='firstname' className="popform__input" placeholder="firstname" id="firstname" value={firstname} onChange={(e)=>setFirstname(e.target.value)} required/>
@@ -259,7 +269,7 @@ swal("Please input all filed!", "Try again!", "warning");
  
   <div className='popform__group'>
   <label for="phone" className='popform__label'>Phone Number</label>
-<input type="phone7" value={phone} onChange={(e)=>setPhone(e.target.value)} className="popform__input" placeholder="123-456-789" id="phone" required/>
+<input type="phone" value={phone} onChange={(e)=>setPhone(e.target.value)} className="popform__input" placeholder="123-456-789" id="phone" required/>
   </div>
   
  <div className='popform__group'>

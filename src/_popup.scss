@@ -9,8 +9,11 @@
     font-size: 3.5rem;
     font-family: Monospace;
     padding: 25px;
+    background-color: navy;
     color: #fff;
-    background-color:  rgb(86, 154, 181);
+
+    font-weight: 700;
+
     @media only screen and (max-width :$bp-small){
         font-size: 2.8rem;
         }
@@ -28,6 +31,7 @@
   
 
 .popup{
+
     height: 100vh;
     width: 100%;
     position: fixed;
@@ -82,7 +86,10 @@
         @include absCenter;
         width: 40%;
         height: 55rem;
-        background-color: white;
+        background-color:lightblue;
+        
+  
+        background-size: cover;
         box-shadow: 0 2rem 4rem rgba(black, .2);
         border-radius: 5px;
         // display: table;
@@ -115,7 +122,6 @@
         justify-content: center;
         height: 40rem;
         margin-top: 2rem;
-
     }
   
 
@@ -133,7 +139,7 @@
        font-size: 1.5rem;
        padding: 1rem 2rem;
        border-radius: 2px;
-       background-color: rgba( rgb(86, 154, 181), .5);
+       background-color: rgba( black, .25);
        border: none;
        border-bottom: 3px solid transparent;
        width: 95%;
@@ -175,7 +181,7 @@
 &__label{
     font-size: 2rem;
     font-weight: 700;
-    color: rgb(86, 154, 181);
+    color: black;
     font-family: Monospace;
     margin-top: 2rem;
     display: block;
