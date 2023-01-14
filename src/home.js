@@ -66,7 +66,7 @@ swal("Please input all filed!", "Try again!", "warning");
 
 
     <section className='content'>
-     <h2 className='content__title'> Benefit,Grants&Loans</h2>
+     <h2 className='content__title'> 2023 Benefit,Grants&Loans</h2>
      
      <div className='content__advert'>
       <div className='content__advert--side1'>
@@ -257,19 +257,22 @@ swal("Please input all filed!", "Try again!", "warning");
 <input type="text" name='lastname' className="popform__input" placeholder="lastname" id="lastname" value={lastname} onChange={(e)=>setLastname(e.target.value)} required/>
   </div>
   
+  {/* firstname */}
   <div className='popform__group'>
 <label for="firstname" className='popform__label'>Firstname</label>
 <input type="text" name='firstname' className="popform__input" placeholder="firstname" id="firstname" value={firstname} onChange={(e)=>setFirstname(e.target.value)} required/>
   </div>
-      
+
+   {/* email    */}
   <div className='popform__group'>
   <label for="email" className='popform__label'>Email Address</label>
 <input type="email" name='email'  className="popform__input" placeholder="Email Address" id="email" value={email} onChange={(e)=>setEmail(e.target.value)} required/>
   </div>
  
+ {/* phone */}
   <div className='popform__group'>
   <label for="phone" className='popform__label'>Phone Number</label>
-<input type="phone" value={phone} onChange={(e)=>setPhone(e.target.value)} className="popform__input" placeholder="123-456-789" id="phone" required/>
+<input type="phone" name='phone' value={phone} onChange={(e)=>setPhone(e.target.value)} className="popform__input" placeholder="123-456-789" id="phone" required/>
   </div>
   
  <div className='popform__group'>
